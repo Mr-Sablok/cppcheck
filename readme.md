@@ -25,7 +25,7 @@ The script will analyse debian source code and upload the results to a cppcheck 
 
 You can stop the script whenever you like with Ctrl C.
 
-## Compiling
+## Compiling Work 
 
 Any C++11 compiler should work. For compilers with partial C++11 support it may work. If your compiler has the C++11 features that are available in Visual Studio 2013 / GCC 4.6 then it will work.
 
@@ -148,7 +148,7 @@ make CXX=i586-mingw32msvc-g++ LDFLAGS="-lshlwapi" RDYNAMIC=""
 mv cppcheck cppcheck.exe
 ```
 
-## Packages
+## Installation Packages
 
 You can install Cppcheck with yum/apt/brew/etc.
 
